@@ -1,4 +1,4 @@
---Add comment for git_2
+--Changed for bugfix branch
 --DDL TABLE CREATION
 --Customer table: Contains important customer information such as contact information and purchasing information.
 CREATE TABLE customers (
