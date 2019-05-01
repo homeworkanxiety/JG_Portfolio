@@ -1,4 +1,6 @@
---Changed for bugfix branch
+--EXAMPLE OF DML/DDL USE IN SQL
+
+
 --DDL TABLE CREATION
 --Customer table: Contains important customer information such as contact information and purchasing information.
 CREATE TABLE customers (
