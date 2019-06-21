@@ -1,0 +1,32 @@
+
+@media(max-width:650px) {
+    .quote {
+        font-size:30px;
+        margin-top:40px;
+        font-
+    }
+    .subquote {
+        font-size:5px;
+    }
+}
+
+
+body  {
+  background-image: url("/images/fractal.jpg");
+}
+.nav-color {
+    color:#2132C0 ;
+}
+
+
+.linka:hover {
+        color: grey;
+    }
+
+    .linka:link {
+        text-decoration: none;
+    }
+
+    .linka:visited {
+        text-decoration: none;
+    }

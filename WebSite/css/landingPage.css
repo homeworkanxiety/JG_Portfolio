@@ -1,0 +1,38 @@
+
+@media(max-width:650px) {
+    .quote {
+        font-size:30px;
+        margin-top:40px;
+    }
+    .subquote {
+        font-size:5px;
+    }
+}
+
+
+body  {
+  background-image: url("/images/fractal.jpg");
+
+}
+.nav-color {
+    color:#2132C0 ;
+}
+
+.bnav-color{
+    background-color:#4B0082;
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.linka:hover {
+        color: rgb(142, 142, 233);
+    }
+
+    .linka:link {
+        text-decoration: none;
+    }
+
+    .linka:visited {
+        text-decoration: none;
+    }

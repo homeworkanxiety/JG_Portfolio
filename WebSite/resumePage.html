@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/landingPage.css">
+
+<!--Bootstrap, AWesome Fonts, and  Google Fonts   -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <!-- Nav Links -->
+ <div style="font-family: 'Playfair Display', serif;" class="container-fluid nav-color ">
+        <nav class='d-none d-md-flex nav flex-column flex-md-row'>
+            <a href="index.html" class='mx-3 display-4 nav-color nav-link active'><i class="fab fa-gg"></i></a>  
+         
+            <a href='resumePage.html' class='linka font-weight-bold mr-2 display-4 nav-color nav-link active'><u>Resume</u></a>
+            <a href='portfolioPage.html' class='linka mx-2 display-4 nav-color nav-link'>Portfolio</a>
+            <a target="_blank" href='https://jgdeveloper.blogspot.com/ ' class='linka mx-2 display-4 nav-color nav-link '>Blog</a>
+            <a target="_blank" href='https://www.youtube.com/channel/UCq5xByZMXlvg6kjdWQ1hmog'
+                class='linka mx-2 display-4 nav-color nav-link'>Youtube</a>
+        </nav>
+    </div>
+  
+<!--SM Nav Dropdown-->
+<div class="container ml-2 mt-3">
+<ul class="d-md-none nav nav-pills">
+    <li class="nav-item mr-2">
+      <a style="color:white;" class="bnav-color nav-link " href="index.html">Home <i class="fab fa-gg"></i></a>
+    </li>
+    <li class="nav-item dropdown">
+      <a style="color:white;" class="bnav-color nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Options</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="portfoliopage.html">Portfolio</a>
+        <a class="dropdown-item" href="https://jgdeveloper.blogspot.com/ ">Blog</a>
+        <a class="dropdown-item" href="https://www.youtube.com/channel/UCq5xByZMXlvg6kjdWQ1hmog">Youtube</a>
+</ul>
+</div>
+
+<!--Accordion Code-->
+<div class="row mt-md-3 mr-md-3 mr-2 ml-2 my-1">
+<div class="col-md-2 col-xs-none"></div>
+<div class="accordion col-md-6 col-xs-9 mt-4" id="accordionExample">
+    <div class="card" >
+        <div class="card-header " id="headingFive" style="background-color:#7B68EE">
+          <h2 class="mb-0">
+            <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              Objective<i class="ml-1 fas fa-caret-down"></i>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse " aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+       <h6><b>Objective:</b> Professional candidate in search of internship/entry-level position requiring proficiency in software development.</h6> <br>
+     
+        </div>
+        </div>
+      </div>
+
+  <div class="card" >
+        <div class="card-header " id="headingFour" style="background-color:#7B68EE">
+          <h2 class="mb-0">
+            <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              Contact Info <i class="ml-1 fas fa-caret-down"></i>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+       <h6><b>Name:</b> John Gallagher</h6> <br>
+       <h6><b> E-Mail:</b> Gallaghercareer@gmail.com</h6> <br>
+       <h6><b> Phone:</b> (443)-496-2628</h6> <br>
+        </div>
+        </div>
+      </div>
+
+
+        <div class="card" >
+    <div class="card-header " id="headingOne" style="background-color:#7B68EE">
+      <h2 class="mb-0">
+        <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Education & Certifications <i class="ml-1 fas fa-caret-down"></i>
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+      <b>B.S.- UNIVERSITY OF MARYLAND UNIVERSITY COLLEGE
+      </b>
+      <h6>
+        Graduation Date: 8/30/2019
+        <br>
+        Major: Cybersecurity and Software Development 
+        <br>
+        GPA: 3.7
+      </h6>
+      <br>
+      <b>M.A.-UNIVERSITY OF TEXAS PAN-AMERICAN</b>
+      <h6>Graduation date: August 2014 
+        <br>
+        Major: English </h6>
+      <br>
+      <b>B.A.-UNIVERSITY OF TEXAS PAN-AMERICAN</b>
+      <h6>Graduation date: August 2010 
+        <br>
+        Major: English </h6>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo" style="background-color:#7B68EE">
+      <h2 class="mb-0">
+        <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Work Experiences<i class="ml-1 fas fa-caret-down"></i>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          <b>High School English Teacher </b>  
+          <h6><i>Croom High School-Cheltenham, MD- Aug. 2016-Present</i> <br> 
+              -Certified Maryland Teacher Certificate (9-12) <br>
+              -Instructs 11th/12th grade English in effective reading and writing skills <br>
+              -Utilized the Danielson Teaching Framework in curriculum planning <br>
+              -I achieved excellent teaching evaluations in all three years of service for PGCPS. 
+              </h6>  
+              <br>
+              <br>
+            <b>Adjunct English Professor</b> <br>
+            <i>Chesapeake College – Wye Mills, MD – Aug. 2013-May 2016</i> <br>
+            <h6>-Instructs college-level students in effective reading and writing skills  <br>
+              -Developmental Reading & Writing curriculum development and lesson planning<br>
+              -English 101 curriculum development and lesson planning<br>
+              -Utilizes various technologies and media platforms for instruction purposes   <br> 
+              -Grades and maintains long-term student records for administrative functions <br>
+
+              </h6>
+
+        </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree" style="background-color:#7B68EE">
+      <h2 class="mb-0">
+        <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Skills<i class="ml-1 fas fa-caret-down"></i>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      <h6>
+        <b>Skills</b> <br>
+        -Develop in PHP, HTML5, CSS3, Javascript <br>
+        -Create Dynamic & Static Websites<br>
+        -Develop using Java Core, JavaFX & Swing, Java Spring MVC/Hibernate<br>
+        -Experience using AWS: SQL Developer, EC2, IAM, RDS, S3<br>
+        -Designed databases using MySql Workbench, Oracle SQL Developer <br>
+        -Experience working in Linux, Mac, and Windows environments<br>
+        -Manged Github repositories<br>
+        -Implemented OWASP Top 10, SEI CERT, and NIST 800-53 Secure Coding Practices to software applications<br>
+        -Tested applications using JUnit Testing Software<br>
+        -Set up VMware virtual machine instances<br>
+        -Practiced Networking basics<br>
+        -Utilized web hosting services to set up websites
+        
+      </h6>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Self-Portrait -->
+<div class="col-4 ">
+    <img class="ml-5 rounded-circle d-none d-md-flex " src="images/selfportrait.jpg"  alt="self-portrait">
+  </div>
+</div>
+
+
+<!--Download Resume Button-->
+<div class="row ">
+<div class="col-md-2 col-1 ml-2 ml-md-4"></div>
+<a target="_blank" href="https://docs.google.com/document/d/1idP6sUAFseGFMUqIAGt1sivEdlkczkdJSZVwNQiMmVA/edit?usp=sharing" class="mt-md-1 mt-2 btn " style="background-color:#4B0082; color:white;">Download Resume</a>
+    </div>
+    
+</body>
+</html>
